@@ -1,0 +1,19 @@
+.newNav{
+    background: transparent;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.newNav.active{
+    background: linear-gradient(90deg, rgb(241, 206, 236) 0%, rgb(194, 208, 235) 100%);
+}
+
+li a.active{
+    color: red;
+}
+.profile-image{
+    margin-left: 5px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
